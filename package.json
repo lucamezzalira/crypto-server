@@ -1,0 +1,27 @@
+{
+  "name": "crypto-server",
+  "version": "1.0.0",
+  "description": "GraphQL + Fastify server for Crypto Currency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucamezzalira/crypto-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucamezzalira/crypto-server/issues"
+  },
+  "homepage": "https://github.com/lucamezzalira/crypto-server#readme",
+  "dependencies": {
+    "apollo-server-fastify": "^1.0.2",
+    "fastify": "^0.34.0",
+    "fastify-helmet": "^1.0.2",
+    "graphql": "^0.11.7",
+    "node-fetch": "^1.7.3"
+  }
+}
